@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result_Activity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ic_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#97FF89"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_trophy"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey Congratulations!"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin = "16dp"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop = "16dp"/>
+    <TextView
+        android:id="@+id/tv_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have scored 5 out of 10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/finishbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#97FF89"/>
+
+
+
+
+</LinearLayout>
